@@ -1,0 +1,6 @@
+name: gradient_picker
+description: A sample web application
+dependencies:
+  color_picker: ">=1.1.1 <2.0.0"
+  browser: 0.3.1+1
+  unittest: 0.3.1+1
