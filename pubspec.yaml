@@ -1,6 +1,11 @@
 name: gradient_picker
-description: A sample web application
+version: 1.0.0
+description: >
+  Gradient Picker widget lets you define a gradient color by
+  manipulating color transition stops
 dependencies:
   color_picker: ">=1.1.1 <2.0.0"
   browser: 0.3.1+1
   unittest: 0.3.1+1
+author: Ali Akbar Vathi <ali.akbar@gmail.com>
+homepage: https://github.com/coderespawn/dart-gradient-picker

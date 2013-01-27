@@ -114,8 +114,6 @@ class GradientPickerHandleBar {
       if (handle != null) {
         // An existing item was selected.
         _selectHandle(handle);
-        mouseMoveHandler = document.body.onMouseMove.listen(onMouseMoved);
-        mouseUpHandler = document.body.onMouseUp.listen(onMouseUp);
       }
       else {
         // The user selected an empty space. Check if the location is valid
@@ -135,6 +133,8 @@ class GradientPickerHandleBar {
           parent._notifyGradientChanged();
         }
       }
+      mouseMoveHandler = document.body.onMouseMove.listen(onMouseMoved);
+      mouseUpHandler = document.body.onMouseUp.listen(onMouseUp);
     } 
     else if (e.button == MOUSE_BUTTON_RIGHT) {
       // Remove a handle if clicked on it
