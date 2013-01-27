@@ -27,7 +27,10 @@ class GradientValue {
     print (stop);
     stops.removeAt(stops.indexOf(stop));
   }
-  
+
+  void addStopValue(ColorValue color, num location) {
+    addStop(new GradientStop(color, location));
+  }
   void clear() => stops.clear();
   
   void sortStops() {
