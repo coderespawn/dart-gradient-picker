@@ -31,4 +31,4 @@ This creates a gradient with a red color on the left extreme end.  Then a color 
 cyan on 66% and green on the extreme right
 
 ## Demo
-Check out the live demo [here](http://htmlpreview.github.com/?https://raw.github.com/coderespawn/dart-color-picker/master/web/example/color_picker_demo.html)
+Check out the live demo [here](http://dart-app-samples.appspot.com/demos/dart-gradient-picker/gradient_picker_demo.html)
