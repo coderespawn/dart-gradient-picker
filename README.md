@@ -28,4 +28,7 @@ Each `GradientStop` specifies a color and it's location in the gradient.  A cust
 	color.addStop(new GradientStop(new ColorValue.fromRGB(0, 0, 255), 1.0)); 
 
 This creates a gradient with a red color on the left extreme end.  Then a color stop of yellow is placed on 33%, 
-cyan on 66% and green on the extreme right    
+cyan on 66% and green on the extreme right
+
+## Demo
+Check out the live demo [here](http://htmlpreview.github.com/?https://raw.github.com/coderespawn/dart-color-picker/master/web/example/color_picker_demo.html)
