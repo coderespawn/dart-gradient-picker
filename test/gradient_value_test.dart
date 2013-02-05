@@ -10,9 +10,6 @@ bool compareColors(ColorValue a, ColorValue b) {
       abs(a.r - b.r) <= 1 &&
       abs(a.g - b.g) <= 1 &&
       abs(a.b - b.b) <= 1;
-  if (!result) {
-    print ("mismatch: $a $b");
-  }
   return result;
 }
 
