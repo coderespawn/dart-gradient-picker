@@ -1,5 +1,5 @@
 name: gradient_picker
-version: 1.0.3
+version: 1.0.4
 author: Ali Akbar Vathi <ali.akbar@gmail.com>
 description: Gradient Picker widget lets you define a gradient color by manipulating color transition stops
 homepage: https://github.com/coderespawn/dart-gradient-picker
