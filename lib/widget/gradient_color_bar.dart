@@ -16,7 +16,7 @@ class GradientPickerColorBar {
   }
   
   void draw() {
-    final context = canvas.context2d;
+    final context = canvas.context2D;
     var canvasGradient = context.createLinearGradient(0, 0, canvas.width, 0);
     parent.gradient.stops.forEach((stop) {
       canvasGradient.addColorStop(stop.location, stop.color.toString());

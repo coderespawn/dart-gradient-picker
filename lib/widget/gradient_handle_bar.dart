@@ -29,7 +29,7 @@ class GradientPickerHandleBar {
     this.barWidth = width;
     canvas = new CanvasElement(width: width + sideMargin * 2, height: height);
     canvas.classes.add("gradient-picker-handlebar");
-    canvas.context2d.translate(sideMargin, 0);  // Fix the origin
+    canvas.context2D.translate(sideMargin, 0);  // Fix the origin
     canvas.onMouseDown.listen(onMouseDown);
     canvas.onMouseMove.listen(_updateMousePointer);
     canvas.onContextMenu.listen((e) {
@@ -56,7 +56,7 @@ class GradientPickerHandleBar {
   }
 
   void draw() {
-    final context = canvas.context2d;
+    final context = canvas.context2D;
     context.clearRect(-sideMargin, 0, canvas.width, canvas.height);
     handles.forEach((handle) => handle.draw(context, barWidth));
   }

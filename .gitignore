@@ -9,8 +9,10 @@
 *.map
 *.lock
 *.tmp
+*.js.deps
 packages/
 out/
+build/
 
 # Compiled source #
 ###################
